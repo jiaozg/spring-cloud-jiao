@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: eureka-server-ha
+
+server:
+  port: 8761
+
+ha:
+  port: 8760
+
+eureka:
+  server:
+#    enable-self-preservation: false
+  instance:
+    hostname: peer2
+  client:
+#    registerWithEureka: false
+#    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${ha.port}/eureka/

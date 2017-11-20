@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Created by jiaozhiguang on 2017/8/15.
+ *
+ * http://localhost:8764/hi?name=forezp
  */
 @RestController
 public class HelloControler {
