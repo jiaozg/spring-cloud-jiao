@@ -1,0 +1,13 @@
+version: '3'
+services:
+  eureka-server:
+    image: jiaozg/eureka-server
+    restart: always
+    ports:
+      - 8761:8761
+
+  service-hi:
+    image: jiaozg/service-hi
+    restart: always
+    ports:
+      - 8763:8763

@@ -12,10 +12,6 @@
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
-		<!--<groupId>org.springframework.boot</groupId>-->
-		<!--<artifactId>spring-boot-starter-parent</artifactId>-->
-		<!--<version>1.5.6.RELEASE</version>-->
-		<!--<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
 		<groupId>com.example</groupId>
 		<artifactId>spring-cloud-jiao</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
